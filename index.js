@@ -41,3 +41,5 @@ Teachers.forEach((teacher)=> console.log(teacher.firstName));
 
 //const arr2 = [true, false, "yay!", [3,6,7], null, 9];
 
+const array1 = [Mike, Joseph, John];
+array1.forEach((name)=>console.log(name.firstName));
