@@ -1,4 +1,4 @@
-const Teachers = [
+const teachers = [
     {
         firstName: "Mike",
         lastName: "Whalen",
@@ -23,25 +23,16 @@ const Teachers = [
     }
 ];
 
-Teachers.forEach((teacher) => {
-    console.log(teacher)
+teachers.forEach((teacher)=> {
+    console.log(teacher.firstName)
+    console.log(teacher.lastName)
+    console.log(teacher.subject)
+    console.log(teacher.bald)
     teacher.pastJobs.forEach((jobs) => {
         console.log(jobs)
     })
-    
+
 });
 
-
-const teachers = pastJobs.filter((teacher) => teacher.bald = true);
-console.log(bald)
-
-
-
-
-
-
-
-
-//const arr1 = [Mike.firstName, Joseph.firstName, John.firstname];
-
-//const arr2 = [true, false, "yay!", [3,6,7], null, 9];
+const bald = teachers.filter((teacher) => teacher.bald);
+console.log(bald);
